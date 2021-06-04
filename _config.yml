@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "Fco Javier Melo"
+description: "Proyectos de Data Science y un poco de todo"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
@@ -33,7 +33,7 @@ owner:
     ad-client:
     ad-slot:
   bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: https://media-exp3.licdn.com/dms/image/C4D03AQHPmh83rtd6Bg/profile-displayphoto-shrink_800_800/0/1622572695802?e=1628121600&v=beta&t=JbBGKWEtpdVY5Vrh61i2x-JtRoaiinGpt5GmEIttzYo # 160x160 px image for author byline
   disqus-shortname:
 
 
