@@ -5,7 +5,7 @@ description: "Proyectos de Data Scine y otras cosas de interes"
 logo: ML_icon_3.png
 teaser: linkedin.jpg
 locale: en_US
-url: "https://fcojaviermelo.github.io/portfolio/"
+url: "https://fcojaviermelo.github.io/portfolio"
 feed:
   path: atom.xml
 
