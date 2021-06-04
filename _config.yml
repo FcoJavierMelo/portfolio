@@ -26,11 +26,11 @@ plugins:
 
 # Site owner
 owner:
-  name: "Michael Rose"
-  web: "https://mademistakes.com"
-  twitter: "mmistakes"
-  bio: "Just another boring, tattooed, time traveling designer."
-  avatar: "bio-photo.jpg" # 160x160 px image for author byline
+  name: "Fco Javier Melo"
+  web: "https://fcojaviermelo.github.io/portfolio"
+  twitter: ""
+  bio: "Apasionado de la tecnologia, el cine y la lectura"
+  avatar: "linkedin.jpg" # 160x160 px image for author byline
   google:
     plus: "+MichaelRoseDesign"
     ad-client: "ca-pub-7328585512091257"
