@@ -11,8 +11,6 @@
 		{% endfor %}
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a> powered2 by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/jekyll-theme-skinny-bones/">Skinny Bones</a>.</p>
-  {% if site.footer-links.github %}<p>hola</p><a href="https://github.com/{{ site.footer-links.github }}">aaaa {{ site.footer-links.github }}</a>{% endif %}
-  {% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"></i></a>{% endif %}
-
+	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a> powered3 by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/jekyll-theme-skinny-bones/">Skinny Bones</a>.</p>
+  {% include svg-icons.html %}
 </footer>
