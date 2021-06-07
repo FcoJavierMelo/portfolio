@@ -11,7 +11,7 @@ image: DataScience.jpg
 ---
 
 <div class="tiles">
-{% for post in site.categories.articles %}
+{% for post in site.categories.portfolio %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
