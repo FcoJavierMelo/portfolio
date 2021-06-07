@@ -5,7 +5,7 @@ date: 2021-06-07T11:39:03-04:00
 modified:
 excerpt: "Proyectos personales centrados en Data Science, pero abiertos a nuevos campos"
 tags: []
-image:
+image: DataScience.jpg
   feature:
   teaser:
 ---
