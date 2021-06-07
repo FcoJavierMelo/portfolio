@@ -1,17 +1,17 @@
 ---
 layout: archive
-title: "Portfolio"
-date: 2021-06-07T11:39:03-04:00
+title: "Articles"
+date: 2014-05-30T11:39:03-04:00
 modified:
-excerpt: "Proyectos personales centrados en Data Science, pero abiertos a nuevos campos"
+excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia."
 tags: []
-image: DataScience.jpg
+image:
   feature:
   teaser:
 ---
 
 <div class="tiles">
-{% for post in site.categories.portfolio %}
+{% for post in site.categories.articles %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
