@@ -1,20 +1,10 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo.jpg
-  twitter: extravagantman
-  google:
-    plus: +BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: +CorneliusFiddlebone
+javier_melo:
+  name: "Fco Javier Melo"
+  web: "https://fcojaviermelo.github.io/portfolio"
+  email: fjmelodelgado@gmail.com
+  bio: "Apasionado de la tecnologia, el cine y la lectura"
+  avatar: "linkedin.jpg" # 160x160 px image for author byline
+  github: FcoJavierMelo
+  linkedin: fcojaviermelo

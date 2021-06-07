@@ -31,7 +31,11 @@ owner:
   bio: "Apasionado de la tecnologia, el cine y la lectura"
   avatar: "linkedin.jpg" # 160x160 px image for author byline
   github: FcoJavierMelo
-  linkedin: https://www.linkedin.com/in/fcojaviermelo/
+  linkedin: fcojaviermelo
+
+footer-links:
+  github: FcoJavierMelo
+  linkedin: fcojaviermelo
 
 
 
