@@ -2,29 +2,24 @@
 layout: home
 permalink: /
 image:
-  feature: DataScience.jpg
+  feature: DataScience2.jpg
 ---
 
 <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">Built for Jekyll 3</h2>
-  <p class="post-excerpt">Takes advantage of native Sass support and data files to make customizing your site easier.</p>
+  <h2 class="post-title">Portfolio</h2>
+  <p class="post-excerpt">Aquí podrás ver mis proyectos empezando por análisis de datos pasando por machine learning hasta la puesta en producción en entornos cloud </p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Content First</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
+  <h2 class="post-title">Artículos</h2>
+  <p class="post-excerpt">Pequeños artículos sobre temas de interés (Work in progress)</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Customizable</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">Extensible</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
+  <h2 class="post-title">Sobre mi</h2>
+  <p class="post-excerpt">Algunos datos sobre mi experiencia profesional</p>
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->
