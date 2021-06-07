@@ -2,14 +2,14 @@
 layout: home
 permalink: /
 image:
-  feature: DataScience2.jpg
+  feature: DataScience3.jpg
 ---
 
 <div class="tiles">
 
 <div class="tile">
   <h2 class="post-title">Portfolio</h2>
-  <p class="post-excerpt">Aquí podrás ver mis proyectos empezando por análisis de datos pasando por machine learning hasta la puesta en producción en entornos cloud </p>
+  <p class="post-excerpt">Aquí podrás ver mis proyectos, empezando por análisis de datos pasando por machine learning y la puesta en producción en entornos cloud </p>
 </div><!-- /.tile -->
 
 <div class="tile">
