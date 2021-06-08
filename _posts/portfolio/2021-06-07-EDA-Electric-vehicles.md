@@ -8,9 +8,8 @@ comments: true
 ads: false
 share: false
 image:
-  feature: &image lock-1600x800.jpg
-  path: *image
-  teaser: lock-400x250.jpg
+  feature: EVS1024x682.jpg
+  teaser: EVS400x250.jpg
 ---
 
 # EDA: Coches electricos en Europa
