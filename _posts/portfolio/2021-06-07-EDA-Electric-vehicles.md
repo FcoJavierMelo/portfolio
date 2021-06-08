@@ -124,6 +124,10 @@ Para la realización del modelo se ha usado:
 	<figcaption>Predicciones</figcaption>
 </figure>
 
+
+Al ser un dataset poco numeroso utilizamos Data Augmentation 
+[Articulo explicativo](https://enmilocalfunciona.io/tratamiento-de-imagenes-usando-imagedatagenerator-en-keras/)
+
 ```python 
 train_datagen = ImageDataGenerator(
     rescale=1. / 255,
@@ -145,3 +149,51 @@ validation_generator = test_datagen.flow_from_directory(
     batch_size=batch_size,
     class_mode='categorical')
 ```
+
+En el caso del modelo ResNet50 no utilizamos weights por defecto 
+
+```python 
+model = applications.ResNet50(input_shape=(img_width, img_height, 3),                                       
+                              include_top=False) 
+```
+
+Si lo hacemos para EfficientNetB7 usando weights='imagenet'
+```python                        
+model = efn.EfficientNetB7(input_shape=(img_width, img_height, 3),
+                           weights='imagenet',
+                           include_top = False, 
+                           classes=11)                          
+```
+
+Definimos las capas densas
+```python                        
+for layer in model.layers:
+    layer.trainable = False
+    
+x = model.output
+x = Flatten()(x)
+x = Dense(1024, activation="relu")(x)
+x = Dropout(0.5)(x)
+x = Dense(1024, activation="sigmoid")(x)
+predictions = Dense(11, activation="softmax")(x)
+model_final = Model(model.input, predictions)                        
+```
+
+Y hacemos el compile y el entrenamiento del modelo
+```python                        
+fmodel_final.compile(loss='categorical_crossentropy',
+              optimizer=optimizers.SGD(lr=1e-4, momentum=0.9),
+              metrics=['accuracy'])
+
+history_nasa = model_final.fit(
+    train_generator,
+    epochs=50, 
+    shuffle = True, 
+    verbose = 1,
+    validation_data=validation_generator)                       
+```
+<figure class="half">
+	<img src="{{ site.url }}/images/EVS10.PNG">
+	<img src="{{ site.url }}/images/EVS11.PNG">
+	<figcaption>Ejemplo de predicción sobre una imagen de un Ford Mustang Mach-E</figcaption>
+</figure>
