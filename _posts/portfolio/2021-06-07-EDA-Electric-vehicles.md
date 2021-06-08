@@ -59,3 +59,8 @@ Para la realización del estudio se ha usado:
 * Pandas
 * Plotly
 * BeautifulSoup
+
+<figure>
+	<img src="{{ site.url }}/images/portfolio1.PNG">
+	<figcaption>Image caption.</figcaption>
+</figure>
