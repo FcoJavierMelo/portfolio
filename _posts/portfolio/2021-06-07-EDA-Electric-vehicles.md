@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Electric Vehicles"
+title: "Electric Vehicles (EDA & MachineLearning)"
 categories: portfolio
 modified: 2021-06-07T16:28:11-04:00
 tags: [EDA]
@@ -32,9 +32,10 @@ Se manejan las siguientes hipotesis:
 
 
 Se utilizan varias fuentes de datos para el EDA:
-*	Datos de generación de electricidad  
-https://ourworldindata.org/energy
-https://github.com/owid/energy-data
+
+*	Datos de generación de electricidad 
+[https://ourworldindata.org/energy]() 
+[https://github.com/owid/energy-data]()
 
 *	Ventas de enchufables en Europa  
 [https://en.wikipedia.org/wiki/Electric_car_use_by_country]()  
@@ -62,7 +63,20 @@ Para la realización del estudio se ha usado:
 
 Puedes acceder ala dashboard de Streamlit en este enlace:
 
-[https://share.streamlit.io/fcojaviermelo/eda_ev_europe/src/EDA_streamlit.py](Dashboard)
+[Dashboard](https://share.streamlit.io/fcojaviermelo/eda_ev_europe/src/EDA_streamlit.py)
+
+
+# Machine Learning: Reconocimiento de modelo mediante imagenes
+
+Se crea un dataset de imágenes para 11 modelos de vehículos eléctricos
+
+Mediante transfer learning y utilizando dos modelos distintos (ResNet50 y EfficentNetB7)
+se comprueba si una imagen corresponde a uno de los modelos.
+
+Para la realización del modelo se ha usado:
+
+* tensorflow
+* keras
 
 ## Contaminación 
 
@@ -84,4 +98,21 @@ Puedes acceder ala dashboard de Streamlit en este enlace:
 <figure>
 	<img src="{{ site.url }}/images/EVS4.PNG">
 	<figcaption>Mapa produccion por fuente de generación</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/images/EVS5.PNG">
+	<figcaption>Emisiones vida util vehículo</figcaption>
+</figure>
+
+## Ventas 
+
+<figure class="half">
+	<img src="{{ site.url }}/images/EVS6.PNG"></a>
+	<img src="{{ site.url }}/images/EVS7.PNG"></a>
+</figure>
+
+<figure class="half">
+	<img src="{{ site.url }}/images/EVS8.PNG"></a>
+	<img src="{{ site.url }}/images/EVS9.PNG"></a>
 </figure>
