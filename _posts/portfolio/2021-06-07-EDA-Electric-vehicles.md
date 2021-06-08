@@ -60,7 +60,28 @@ Para la realización del estudio se ha usado:
 * Plotly
 * BeautifulSoup
 
+Puedes acceder ala dashboard de Streamlit en este enlace:
+
+[https://share.streamlit.io/fcojaviermelo/eda_ev_europe/src/EDA_streamlit.py](Dashboard)
+
+## Contaminación 
+
 <figure>
-	<img src="{{ site.url }}/images/portfolio1.PNG">
-	<figcaption>Image caption.</figcaption>
+	<img src="{{ site.url }}/images/EVS1.PNG">
+	<figcaption>Producción de electricidad en Europa (Tw/h)</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/images/EVS2.PNG">
+	<figcaption>Producción de electricidad en Europa (porcentaje)</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/images/EVS3.PNG">
+	<figcaption>Producción de electricidad por pais (porcentaje)</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/images/EVS4.PNG">
+	<figcaption>Mapa produccion por fuente de generación</figcaption>
 </figure>
