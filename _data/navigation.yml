@@ -3,7 +3,7 @@
 - title: Portfolio
   url: /portfolio/
   excerpt: "Mis proyectos"
-  image: 400x250.gif
+  image: DataScience400x250.jpg
 
 - title: Getting Started
   url: /getting-started/
@@ -20,7 +20,7 @@
   excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
   image: 400x250.gif
 
-- title: About
+- title: Sobre mi
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
-  image: 400x250.gif
+  excerpt: "Algunos datos sobre mi experiencia profesional"
+  image: linkedin400x250.jpg
