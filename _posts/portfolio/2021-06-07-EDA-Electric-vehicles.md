@@ -12,6 +12,8 @@ image:
   teaser: EVS400x250.jpg
 ---
 
+[Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/EDA_electric_vehicles)
+
 # EDA: Coches electricos en Europa
 
 En este EDA se va a analizar la irrupción del coche electrico desde dos puntos de vista:

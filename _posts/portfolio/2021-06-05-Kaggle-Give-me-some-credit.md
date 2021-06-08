@@ -9,7 +9,8 @@ ads: false
 share: false
 image:
   feature: GSC1024x256.png
-  teaser: kaggle2.jpg
+  teaser: kaggle2.png
 ---
 
-## Give me some credit | Kaggle
+[Enlace a kaggle](https://www.kaggle.com/c/give-me-some-credit-20210326/overview)
+
