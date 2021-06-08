@@ -108,11 +108,40 @@ Para la realización del modelo se ha usado:
 ## Ventas 
 
 <figure class="half">
-	<img src="{{ site.url }}/images/EVS6.PNG"></a>
-	<img src="{{ site.url }}/images/EVS7.PNG"></a>
+	<img src="{{ site.url }}/images/EVS6.PNG">
+	<img src="{{ site.url }}/images/EVS7.PNG">
 </figure>
 
 <figure class="half">
-	<img src="{{ site.url }}/images/EVS8.PNG"></a>
-	<img src="{{ site.url }}/images/EVS9.PNG"></a>
+	<img src="{{ site.url }}/images/EVS8.PNG">
+	<img src="{{ site.url }}/images/EVS9.PNG">
 </figure>
+
+##MACHINE LEARNING
+
+<figure>
+	<img src="{{ site.url }}/images/portfolio6.PNG">
+	<figcaption>Predicciones</figcaption>
+</figure>
+
+```python 
+train_datagen = ImageDataGenerator(
+    rescale=1. / 255,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True)
+
+test_datagen = ImageDataGenerator(rescale=1. / 255)
+
+train_generator = train_datagen.flow_from_directory(
+    train_data_dir,
+    target_size=(img_height, img_width),
+    batch_size=batch_size,
+    class_mode='categorical')
+
+validation_generator = test_datagen.flow_from_directory(
+    TEST_PATH,
+    target_size=(img_height, img_width),
+    batch_size=batch_size,
+    class_mode='categorical')
+```
