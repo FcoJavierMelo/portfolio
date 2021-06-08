@@ -117,7 +117,7 @@ Para la realización del modelo se ha usado:
 	<img src="{{ site.url }}/images/EVS9.PNG">
 </figure>
 
-##MACHINE LEARNING
+## MACHINE LEARNING
 
 <figure>
 	<img src="{{ site.url }}/images/portfolio6.PNG">
@@ -126,6 +126,7 @@ Para la realización del modelo se ha usado:
 
 
 Al ser un dataset poco numeroso utilizamos Data Augmentation 
+
 [Articulo explicativo](https://enmilocalfunciona.io/tratamiento-de-imagenes-usando-imagedatagenerator-en-keras/)
 
 ```python 
@@ -153,8 +154,8 @@ validation_generator = test_datagen.flow_from_directory(
 En el caso del modelo ResNet50 no utilizamos weights por defecto 
 
 ```python 
-model = applications.ResNet50(input_shape=(img_width, img_height, 3),                                       
-                              include_top=False) 
+model = applications.ResNet50(input_shape=(img_width, img_height, 3),
+                              include_top=False)
 ```
 
 Si lo hacemos para EfficientNetB7 usando weights='imagenet'
