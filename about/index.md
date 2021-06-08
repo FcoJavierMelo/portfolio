@@ -17,8 +17,10 @@ Tras mas de 20 años en el sector TIC inicio una nueva aventura en el mundo de l
 Data Scientist con una visión global, desde la obtención de los datos, su análisis, visualización,
 predicciones mediante machine learning así como la puesta en producción.
 
-Desarrollo en Python con conocimiento de muchas de sus librerías ( Pandas | Numpy | Seaborn
-Matplotlib| Plotly | Folium | scikit-learn | TensorFlow | Keras | Flask)
+Desarrollo en Python con conocimiento de muchas de sus librerías
+* Numpy, Pandas 
+* Matplotlib, Seaborn, Plotly, Folium 
+* Scikit-learn, TensorFlow, Keras, Flask
 
 Años de experiencia con SQL (SQL Server, Oracle, MySQL)
 

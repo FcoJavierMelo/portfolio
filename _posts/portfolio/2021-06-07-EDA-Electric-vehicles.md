@@ -5,7 +5,12 @@ categories: portfolio
 modified: 2021-06-07T16:28:11-04:00
 tags: [EDA]
 comments: true
-ads: true
+ads: false
+share: false
+image:
+  feature: &image lock-1600x800.jpg
+  path: *image
+  teaser: lock-400x250.jpg
 ---
 
 # EDA: Coches electricos en Europa

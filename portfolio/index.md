@@ -6,8 +6,8 @@ modified:
 excerpt: "Proyectos personales centrados en Data Science, pero abiertos a nuevos campos"
 tags: []
 image: 
-  feature: DataScience.jpg
-  teaser: DataScience.jpg
+  feature: DataScience1024x256.jpg
+  teaser: 
 ---
 
 <div class="tiles">
