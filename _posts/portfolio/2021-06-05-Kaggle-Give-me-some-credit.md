@@ -12,13 +12,13 @@ image:
   teaser: kaggle2.png
 ---
 
-En este [enlace a kaggle](https://www.kaggle.com/c/give-me-some-credit-20210326/overview) se definen las normas de la competición. 
-
 A partir del dataset que se facilita se debe generar un modelo que prediga si un cliente tiene una situación financiera adecuada para otorgarle un crédito.
+
+En este [enlace a kaggle](https://www.kaggle.com/c/give-me-some-credit-20210326/overview) se definen las normas de la competición.
 
 Esta competición ha sido realizada junto a [Arturo Guzmán Solera](https://www.linkedin.com/in/arturo-guzm%C3%A1n-solera/)
 
-[Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/EDA_electric_vehicles)
+[Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Kaggle-Give%20Me%20Some%20Credit)
 
 Tras analizar el dataset decidimos aplicar un KNN para imputar los NaN 
 
