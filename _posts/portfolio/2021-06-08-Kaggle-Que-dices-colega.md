@@ -19,4 +19,6 @@ un modelo que prediga las letras del lenguaje de signos.
 
 En este [enlace a kaggle](https://www.kaggle.com/c/que-dices-colega/overview) se definen las normas de la competición.
 
+La competición se realiza junto a [Cristina Martiñan](https://www.linkedin.com/in/cristinamantinan/), [Mario Massaro](https://www.linkedin.com/in/mariomassaro/) y [Marta Miñana](https://www.linkedin.com/in/martaminana1203/) 
 
+[Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Kaggle-Give%20Me%20Some%20Credit)
