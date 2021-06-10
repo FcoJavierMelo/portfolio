@@ -21,4 +21,4 @@ En este [enlace a kaggle](https://www.kaggle.com/c/the-bridge-nlp/overview) se d
 
 La competición se realiza junto a [José Serrat](https://www.linkedin.com/in/joseserrat/) y [Ramón Ascanio](https://www.linkedin.com/in/ram%C3%B3n-ascanio-armada-78196a176/) 
 
-[Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Kaggle-Give%20Me%20Some%20Credit)
+[Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Kaggle-Tweet%20Disaster)
