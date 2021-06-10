@@ -8,7 +8,7 @@ comments: true
 ads: false
 share: false
 image:
-  feature: WSA1024x256.png
+  feature: WSA1024x256.jpg
   teaser: WSA400x250.PNG
 ---
 
