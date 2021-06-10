@@ -68,8 +68,8 @@ Tras el entrenamiento del modelo obtuvimos un accuracy en kaggle de 0.90
 	<figcaption>Resultados tanto en privado como en publico</figcaption>
 </figure>
 
-Tras la finalización de la competición nor pico el gusanillo de probar con otros modelos
-y nos decidimos por EfficientNetB7, en este caso incluimos tambien la capa densa del propio modelo.
+Una vez finalizada de la competición nos pico el gusanillo de probar con otros modelos
+y nos decidimos por EfficientNetB7, en este caso incluimos también la capa densa del propio modelo.
 
 ```python 
 ## EfficientNetB7
