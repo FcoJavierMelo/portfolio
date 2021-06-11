@@ -18,7 +18,7 @@ image:
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Sobre mi</h2>
+  <h2 class="post-title">Sobre mí</h2>
   <p class="post-excerpt">Algunos datos sobre mi experiencia profesional</p>
 </div><!-- /.tile -->
 
