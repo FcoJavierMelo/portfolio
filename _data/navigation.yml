@@ -5,20 +5,10 @@
   excerpt: "Mis proyectos"
   image: DataScience400x250.jpg
 
-'''- title: Getting Started
-  url: /getting-started/
-  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
-  image: 400x250.gif'''
-
 - title: Artículos
   url: /articles/
   excerpt: "Artículos"
   image: Articles400x250.jpg
-
-'''- title: Media
-  url: /media/
-  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
-  image: 400x250.gif'''
 
 - title: Sobre mi
   url: /about/
