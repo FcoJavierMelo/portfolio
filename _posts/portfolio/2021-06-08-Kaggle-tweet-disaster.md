@@ -12,7 +12,7 @@ image:
   teaser: kaggle2.png
 ---
 
-¿Se habla en un tweet sobre un desastre?
+¿Se habla en un tweet sobre un desastre?.
 
 Con un dataset de 5346 tweet para el entrenamiento y 2247 para test se busca
 un modelo que prediga si un en un tweet se está hablando de algún tipo de desastre.  

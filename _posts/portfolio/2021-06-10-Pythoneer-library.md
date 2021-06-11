@@ -15,7 +15,7 @@ image:
 
 Un grupo de compañer@s nos hicimos la siguiente pregunta: 
 ¿como compartir con la comunidad las funciones o procesos que hemos implementado a nivel 
-personal, usamos en el día a día y que facilitan nuestro trabajo como Data Scientist?
+personal, usamos en el día a día y que facilitan nuestro trabajo como Data Scientist?.
 
 Así nació la librería Pythoneer, un proyecto colaborativo en el que se implementan soluciones
 que abarcan desde la limpieza de datos, feature engineering, visualización, automatización de procesos de machine learning..

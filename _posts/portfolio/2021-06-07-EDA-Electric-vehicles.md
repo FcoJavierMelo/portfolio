@@ -35,21 +35,21 @@ Se manejan las siguientes hipotesis:
 
 Se utilizan varias fuentes de datos para el EDA:
 
-*	Datos de generación de electricidad 
+*	Datos de generación de electricidad: 
 [https://ourworldindata.org/energy]() 
 [https://github.com/owid/energy-data]()
 
-*	Ventas de enchufables en Europa  
+*	Ventas de enchufables en Europa:  
 [https://en.wikipedia.org/wiki/Electric_car_use_by_country]()  
 [https://carsalesbase.com/]()  
 
-*	Ventas de vehículos en Europa  
+*	Ventas de vehículos en Europa:  
 [https://www.km77.com/]()
 
-*	Emisiones en la fabricación de vehículos  
+*	Emisiones en la fabricación de vehículos:  
 [https://theicct.org/]()
 
-Además, se utilizan otras fuentes para el conocimiento de campo  
+Además, se utilizan otras fuentes para el conocimiento de campo: 
 
 [http://www.energimyndigheten.se/globalassets/forskning--innovation/transporter/c243-the-life-cycle-energy-consumption-and-co2-emissions-from-lithium-ion-batteries-.pdf]()  
   
@@ -70,7 +70,7 @@ Puedes acceder ala dashboard de Streamlit en este enlace:
 
 # Machine Learning: Reconocimiento de modelo mediante imagenes
 
-Se crea un dataset de imágenes para 11 modelos de vehículos eléctricos
+Se crea un dataset de imágenes para 11 modelos de vehículos eléctricos.
 
 Mediante transfer learning y utilizando dos modelos distintos (ResNet50 y EfficentNetB7)
 se comprueba si una imagen corresponde a uno de los modelos.
@@ -127,7 +127,7 @@ Para la realización del modelo se ha usado:
 </figure>
 
 
-Al ser un dataset poco numeroso utilizamos Data Augmentation 
+Al ser un dataset poco numeroso utilizamos Data Augmentation: 
 
 [Articulo explicativo](https://enmilocalfunciona.io/tratamiento-de-imagenes-usando-imagedatagenerator-en-keras/)
 
@@ -153,14 +153,14 @@ validation_generator = test_datagen.flow_from_directory(
     class_mode='categorical')
 ```
 
-En el caso del modelo ResNet50 no utilizamos weights por defecto 
+En el caso del modelo ResNet50 no utilizamos weights por defecto: 
 
 ```python 
 model = applications.ResNet50(input_shape=(img_width, img_height, 3),
                               include_top=False)
 ```
 
-Si lo hacemos para EfficientNetB7 usando weights='imagenet'
+Si lo hacemos para EfficientNetB7 usando weights='imagenet':
 ```python                        
 model = efn.EfficientNetB7(input_shape=(img_width, img_height, 3),
                            weights='imagenet',
@@ -168,7 +168,7 @@ model = efn.EfficientNetB7(input_shape=(img_width, img_height, 3),
                            classes=11)                          
 ```
 
-Definimos las capas densas
+Definimos las capas densas:
 ```python                        
 for layer in model.layers:
     layer.trainable = False
@@ -182,7 +182,7 @@ predictions = Dense(11, activation="softmax")(x)
 model_final = Model(model.input, predictions)                        
 ```
 
-Y hacemos el compile y el entrenamiento del modelo
+Y hacemos el compile y el entrenamiento del modelo:
 ```python                        
 fmodel_final.compile(loss='categorical_crossentropy',
               optimizer=optimizers.SGD(lr=1e-4, momentum=0.9),

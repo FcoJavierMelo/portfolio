@@ -20,7 +20,7 @@ Esta competición ha sido realizada junto a [Arturo Guzmán Solera](https://www.
 
 [Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Kaggle-Give%20Me%20Some%20Credit)
 
-Tras analizar el dataset decidimos aplicar un KNN para imputar los NaN 
+Tras analizar el dataset decidimos aplicar un KNN para imputar los NaN: 
 
 [Artículo sobre el tema](https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e)
 
@@ -65,7 +65,7 @@ df_train[['Id', 'SeriousDlqin2yrs', 'RevolvingUtilizationOfUnsecuredLines', 'age
 ```
 
 Tras probar varios modelos nos decidimos por xgboost, usamos GridSearchCV para 
-obtener los mejores parametros
+obtener los mejores parametros:
 
 ```python 
 # XGBoost
@@ -96,9 +96,9 @@ for i in model:
     models_gridsearch[i[0]].fit(X_train, y_train)
 ```
 
-Tras el entrenamiento obtenemos un [roc_auc](https://es.wikipedia.org/wiki/Curva_ROC) de 0.86
+Tras el entrenamiento obtenemos un [roc_auc](https://es.wikipedia.org/wiki/Curva_ROC) de 0.86.
 
-Los resultados en kaggle se mantienen 
+Los resultados en kaggle se mantienen: 
 
 <figure>
 	<img src="{{ site.url }}/images/GSC1.PNG">
