@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Sobre mi"
+title: "Sobre mí"
 date: 2021-06-08T09:44:20-04:00
 modified: 2021-06-08T14:56:44-04:00
 excerpt: "Algunos datos sobre mi experiencia profesional"
