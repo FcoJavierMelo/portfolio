@@ -153,13 +153,13 @@
 	}
 	@at-root {
 		.page-content {
-//			@include fill-parent;
+			@include fill-parent;
 			// larger font for intro paragraph
-/*			> p {
+			> p {
 				&:first-child {
-					@include font-size(20,yes,30);
+					@include font-size(14,no);
 				}
-			}*/
+			}
 			// cleaner underlines for links
 			a { text-decoration: none; }
 			p a,
