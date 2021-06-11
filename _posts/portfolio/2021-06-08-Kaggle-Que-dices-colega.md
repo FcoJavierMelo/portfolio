@@ -23,7 +23,7 @@ La competición se realiza junto a [Cristina Martiñan](https://www.linkedin.com
 
 [Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Kaggle-que%20dices%20colega)
 
-Utilizamos el modelo VGG16 sin incluir weights ni la capa densa
+Utilizamos el modelo VGG16 sin incluir weights ni la capa densa:
 
 ```python 
 ## VGG16
@@ -61,7 +61,7 @@ model = tf.keras.models.Model(base_model.input, x)
 model.compile(optimizer = 'adam', loss = 'sparse_categorical_crossentropy',metrics = ['acc'])
 ```
 
-Tras el entrenamiento del modelo obtuvimos un accuracy en kaggle de 0.90 
+Tras el entrenamiento del modelo obtuvimos un accuracy en kaggle de 0.90: 
 
 <figure>
 	<img src="{{ site.url }}/images/QDC1.PNG">

@@ -13,14 +13,14 @@ image:
 ---
 
 Mediante Web Scrapping obtenemos datos de relevancia de Linkedin y Glassdoor 
-que luego consumimos a través de una API alojada en AWS
+que luego consumimos a través de una API alojada en AWS.
 
-Esta proyecto fue desarrollado junto a [Arturo Guzmán](https://www.linkedin.com/in/arturo-guzm%C3%A1n-solera/) y [Cristina Martínez](https://www.linkedin.com/in/cristina-mart%C3%ADnez-garc%C3%ADa-438209170/)
+Este proyecto fue desarrollado junto a [Arturo Guzmán](https://www.linkedin.com/in/arturo-guzm%C3%A1n-solera/) y [Cristina Martínez](https://www.linkedin.com/in/cristina-mart%C3%ADnez-garc%C3%ADa-438209170/)
 
 [Enlace al código en github](https://github.com/FcoJavierMelo/my_projects/tree/main/Linkedin%26Glassdoor%20Data)
 
 La idea surge en un proyecto multidisciplinar, donde trabajamos codo con codo con desarrolladores fullstack, 
-diseñadores UI/UX y equipo de ciberseguridad
+diseñadores UI/UX y equipo de ciberseguridad.
 
 Se plantea una app de cursos formativos donde el punto diferenciador sea que, para cada curso,
 se den referencias de que ofertas laborales existen para las tecnologías que se cursaran 
